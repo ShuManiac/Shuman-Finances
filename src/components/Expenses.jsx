@@ -92,8 +92,8 @@ export const Expenses = () => {
     return (
         <main className=''>
             <div className='flex flex-col justify-center p-6 text-center'>
-                <H1 className={'text-slate-500'}>Expenses</H1>
-                <h2 className='pt-5 text-2xl text-slate-500'>Total Expenses: {sum}₪</h2>
+                <H1 className={'text-white'}>Expenses</H1>
+                <h2 className='pt-5 text-2xl text-red-600'>Total Expenses: {sum}₪</h2>
                 <input
                     className='w-10/12 p-2 m-2 mx-auto mt-8 text-gray-700 bg-gray-200 sm:w-72 rounded-xl'
                     type="text"
